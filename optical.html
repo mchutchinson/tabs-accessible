@@ -1,0 +1,157 @@
+
+<link type="text/css" rel="stylesheet" media="all" href="../general/bootstrap.css" />
+<script type="text/javascript" src="http://unpkg.com/jquery@1.11.3/dist/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" media="all" href="../general/business.css" />
+<link rel="stylesheet" type="text/css" href="../general/bizmodules.css">
+<!-- TABS -->
+<script type="text/javascript" src="../general/jquery.hashchange.min.js"></script>
+<script type="text/javascript" src="../general/jquery.easytabs.js"></script>
+
+<!--  TABS hshtg -->
+<script type="text/javascript"> 
+$(document).ready(function(){
+
+$('#tabs').easytabs();
+
+var $tabs = $('#tabs').data('easytabs').tabs;
+$(".arrows").each(function(i){
+  var totalSize = $(".arrows").size();
+  if (i != totalSize) {
+    next = i + 1;
+  }
+  if (i != 0) {
+    prev = i - 1;
+  }
+});
+
+
+});
+</script>
+<!--  END TABS hshtg -->
+<style>
+/* MAIN OPTICAL LANDING PAGE */
+#promolp.cvsoptical .valign {display: flex; align-items: center;}
+
+#promolp #tabs {background: #b8e3eb;}
+#promolp.cvsoptical .frameshapes span {display: block; height: 200px; width: auto;}
+#promolp.cvsoptical .square {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252908/square_inactive_gnafyk.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .round {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252905/round_inactive_r2vq0g.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .oval {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252900/oval_inactive_pza9x6.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .heart {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252898/heart_inactive_wbxc11.png) no-repeat bottom center; background-size: 80%;}
+
+#promolp.cvsoptical .frameshapes .active span {font-weight: bold;}
+#promolp.cvsoptical .active .square {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252907/square_active_bz44zx.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .active .round {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252904/round_active_yb6dvq.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .active .oval {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252899/oval_active_p4klqq.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .active .heart {background: url(https://res.cloudinary.com/dy1cszv29/image/upload/v1559252895/heart_active_kydtg0.png) no-repeat bottom center; background-size: 80%;}
+#promolp.cvsoptical .panel-container {background: #fff;}
+
+#promolp.cvsoptical ul {margin-bottom: 0;}
+#promolp.cvsoptical .frameshapes li {list-style: none;}
+#promolp.cvsoptical ul.frameshapes, #promolp.cvsoptical .promolist {padding-left: 0;}
+#promolp.cvsoptical a {color: #333;}
+#promolp.cvsoptical .frameshapes .para-textlink:focus {border: none;}
+
+@media screen and (max-width: 600px) {
+    #promolp.cvsoptical .valign {display: block; align-items: center;}
+    #promolp.cvsoptical .frameshapes span {height: 150px;}
+}
+
+@media screen and (max-width: 400px) {
+    #promolp.cvsoptical .frameshapes span {height: 100px;}
+}
+</style>
+<div class="container"><!-- DELETE BEFORE DELIVERING -->
+
+<div class="cvsoptical" id="promolp">
+    
+    <!-- style-finder -->
+    <div id="designer-frames">
+      <h3 class="fs-hlevel3 promoTextblack margin-none-top margin2x-bottom">Lorem ipsum</h3>
+      <div id="tabs">
+       <h6 class="fs-hlevel3 promoTextnavy margin1x-top margin1x-bottom spacer2x-top text-center">Choose your face shape consectetur adipiscing elit.</h6>
+       <ul class="row frameshapes">
+        <li class="col-xs-6" role="tab" aria-controls="square-face"><a class="para-textlink" href="#panel1"><span class="square fs-paragraph text-center">Square</span><span class="offscreen">-shaped faces recommendation</span></a></li>
+        <li class="col-xs-6" role="tab" aria-controls="round-face"><a class="para-textlink" href="#panel2"><span class="round fs-paragraph text-center">Round</span><span class="offscreen">-shaped faces recommendation</span></a></li>
+        <li class="col-xs-6" role="tab" aria-controls="oval-face"><a class="para-textlink" href="#panel3"><span class="oval fs-paragraph text-center">Oval</span><span class="offscreen">-shaped faces recommendation</span></a></li>
+        <li class="col-xs-6" role="tab" aria-controls="heart-face"><a class="para-textlink" href="#panel4"><span class="heart fs-paragraph text-center">Heart</span><span class="offscreen">-shaped faces recommendation</span></a></li>
+      </ul> 
+     <div class="panel-container spacer-top">
+
+     <div id="panel1" class="ui-tabs-panel" role="tabpanel" aria-labelledby="square-face-glasses">
+      <div class="row frames">
+        <div class="col-xs-6 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/round.png"><p class="fs-paragraph text-center">Round</p></div>
+        <div class="col-xs-6 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/aviator.png"><p class="fs-paragraph text-center">Aviator</p></div>
+        <div class="col-xs-6 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/oval.png"><p class="fs-paragraph text-center">Oval</p></div>
+        <div class="col-xs-6 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/cateye.png"><p class="fs-paragraph text-center">Cat Eye</p></div>
+      </div>
+      
+      <div class="col-sm-20 col-md-16 row">
+        <p class="fs-paragraph margin-none-top margin1x-bottom">Square-shaped faces consequat arcu ac tellus tempus egestas.</p>
+        <ul class="promolist">
+          <li>Soften ed mattis ante round frames</li>
+          <li>Glasses ultrices posuere cubilia look best</li>
+        </ul>
+        <p class="fs-paragraph margin1x-top margin1x-bottom">Curabitur magna tortor help select frames.</p>
+      </div>
+     </div><!--end panel-->
+
+     <div id="panel2" class="ui-tabs-panel" role="tabpanel" aria-labelledby="round-face-glasses">
+      <div class="row frames">
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/rectangle.png"><p class="fs-paragraph text-center">Rectangle</p></div>
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/trendySquare.png"><p class="fs-paragraph text-center">Trendy Square</p></div>
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/browline.png"><p class="fs-paragraph text-center">Brow Line</p></div>
+      </div>
+      <div class="col-sm-20 col-md-16 row">
+        <p class="fs-paragraph margin-none-top margin1x-bottom">Round faces posuere est eget ante scelerisque rhoncus.</p>
+        <ul class="promolist">
+          <li>Ut augue eros, volutpat vitae nulla ut soft features</li>
+        </ul>
+        <p class="fs-paragraph margin1x-top margin1x-bottom">Curabitur magna tortor, volutpat id viverra nec, aliquam id arcu.</p>
+      </div>
+     </div><!--end panel-->
+     <div class="clear"></div>
+
+     <div id="panel3" class="ui-tabs-panel" role="tabpanel" aria-labelledby="oval-face-glasses">
+      <div class="row frames">
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/rectangle.png"><p class="fs-paragraph text-center">Rectangle</p></div>
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/trendySquare.png"><p class="fs-paragraph text-center">Trendy Square</p></div>
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/round.png"><p class="fs-paragraph text-center">Round</p></div>
+      </div>
+      <div class="col-sm-20 col-md-16 row">
+        <p class="fs-paragraph margin-none-top margin1x-bottom">Oval faces laoreet libero in urna suscipit face.</p>
+        <ul class="promolist">
+          <li>Oversized condimentum dui sodales shape</li>
+          <li>Rectangle ipsum primis in faucibus orci luctus et ultrices posuere cubilia oval face</li>
+        </ul>
+        <p class="fs-paragraph margin1x-top margin1x-bottom">Nunc velit lorem, bibendum vel justo ac, viverra ullamcorper odio.</p>
+      </div>
+     </div><!--end panel-->
+     <div class="clear"></div>
+
+     <div id="panel4" class="ui-tabs-panel" role="tabpanel" aria-labelledby="heart-face-glasses">
+      <div class="row frames">
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/wayfarer.png"><p class="fs-paragraph text-center">Wayfarer</p></div>
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/rectangle.png"><p class="fs-paragraph text-center">Rectangle</p></div>
+        <div class="col-xs-8 margin1x-top"><img alt="" class="center-block biz-img-responsive" src="http://www.cvs.com/bizcontent/marketing/optical/images/trendySquare.png"><p class="fs-paragraph text-center">Trendy Square</p></div>
+      </div>
+      <div class="col-sm-20 col-md-16 row">
+        <p class="fs-paragraph margin-none-top margin1x-bottom">A heart-shaped face is posuere est eget ante scelerisque rhoncus.</p>
+        <ul class="promolist">
+          <li>Width should ad litora torquent per conubia nostra forehead</li>
+          <li>Round eyeglasses celerisque elit mi, vel maximus leo faucibus forehead</li>
+        </ul>
+        <p class="fs-paragraph margin1x-top margin1x-bottom">Cras ullamcorper massa ac venenatis pharetra.</p>
+      </div>
+     </div><!--end panel-->
+     <div class="clear"></div>
+    </div><!--end panel container-->
+  </div><!--end tabs-->
+</div>
+
+<!-- /style-finder -->
+
+</div> <!-- /promolp -->
+</div><!-- DELETE BEFORE DELIVERING -->
+ 
+</script>
